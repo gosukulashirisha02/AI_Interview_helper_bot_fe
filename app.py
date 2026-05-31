@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import ast
 
-be_url = "http://127.0.0.1:8000"
+be_url = st.secrets("server_url").rstrip("/")
 
 st.title("AI Interview Preparation Helper Bot")
 
