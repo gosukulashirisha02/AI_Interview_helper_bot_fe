@@ -2,7 +2,7 @@ import streamlit as st
 import requests
 import ast
 
-be_url = st.secrets("server_url").rstrip("/")
+be_url = st.secrets["server_url"].rstrip("/")
 
 st.title("AI Interview Preparation Helper Bot")
 
